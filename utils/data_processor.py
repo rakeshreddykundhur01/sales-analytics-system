@@ -1,7 +1,5 @@
 def calculate_total_revenue(transactions):
-    """
-    Calculates total revenue from all transactions
-    """
+    
     total_revenue = 0.0
 
     for t in transactions:
@@ -10,9 +8,7 @@ def calculate_total_revenue(transactions):
     return total_revenue
 
 def region_wise_sales(transactions):
-    """
-    Analyzes sales by region
-    """
+    
     region_data = {}
     total_revenue = 0.0
 
@@ -52,9 +48,7 @@ def region_wise_sales(transactions):
     return sorted_regions
 
 def top_selling_products(transactions, n=5):
-    """
-    Finds top n products by total quantity sold
-    """
+    
     product_data = {}
 
     for t in transactions:
@@ -85,9 +79,7 @@ def top_selling_products(transactions, n=5):
     return product_list[:n]
 
 def customer_analysis(transactions):
-    """
-    Analyzes customer purchase patterns
-    """
+    
     customer_data = {}
 
     for t in transactions:
@@ -126,9 +118,7 @@ def customer_analysis(transactions):
     return sorted_customers
 
 def daily_sales_trend(transactions):
-    """
-    Analyzes sales trends by date
-    """
+    
     daily_data = {}
 
     for t in transactions:
@@ -158,9 +148,7 @@ def daily_sales_trend(transactions):
     return sorted_daily
 
 def find_peak_sales_day(transactions):
-    """
-    Identifies the date with highest revenue
-    """
+    
     daily_data = {}
 
     for t in transactions:
@@ -189,9 +177,7 @@ def find_peak_sales_day(transactions):
     return peak_date, max_revenue, peak_txn_count
 
 def low_performing_products(transactions, threshold=10):
-    """
-    Identifies products with low sales
-    """
+    
     product_data = {}
 
     for t in transactions:
