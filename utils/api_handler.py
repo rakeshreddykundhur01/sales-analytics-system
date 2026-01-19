@@ -1,9 +1,7 @@
 import requests
 
 def fetch_all_products():
-    """
-    Fetches all products from DummyJSON API
-    """
+    
     url = "https://dummyjson.com/products?limit=100"
 
     try:
