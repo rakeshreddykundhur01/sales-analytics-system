@@ -1,9 +1,7 @@
 import datetime
 
 def generate_sales_report(transactions, enriched_transactions, output_file='output/sales_report.txt'):
-    """
-    Generates a comprehensive formatted text report
-    """
+    
     from utils.data_processor import (
         calculate_total_revenue,
         region_wise_sales,
