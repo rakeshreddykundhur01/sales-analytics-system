@@ -1,4 +1,6 @@
+
 def read_sales_data(filename):
+    
     
     encodings = ['utf-8', 'latin-1', 'cp1252']
     lines = []
