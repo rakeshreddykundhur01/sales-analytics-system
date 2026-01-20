@@ -1,3 +1,4 @@
+
 def calculate_total_revenue(transactions):
     
     total_revenue = 0.0
