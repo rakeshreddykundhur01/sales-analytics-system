@@ -1,5 +1,6 @@
 import requests
 
+
 def fetch_all_products():
     
     url = "https://dummyjson.com/products?limit=100"
